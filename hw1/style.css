@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    height: inherit;
+}
+
+#image1 {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    z-index: 9999;
+}
+
+#image2 {
+    position: absolute;
+    top: 16%;
+    left: 29%;
+    z-index: 9999;
+}
+
+.b1 {
+    position: absolute;
+    top: 49%;
+    left: 40%;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+.b2 {
+    position: absolute;
+    top: 49%;
+    left: 48%;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+.b3 {
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+.b4 {
+    position: absolute;
+    top: 54%;
+    left: 48%;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+.myButton {
+    z-index: 9999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+button:hover {
+    background-color: #ababab;
+    box-shadow: 0 5px #666;
+}
+
+button:active {
+    background-color: #ababab;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
