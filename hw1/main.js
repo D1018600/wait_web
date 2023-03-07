@@ -79,14 +79,14 @@ function loop() {
 
     ctx.font = "20px Arial";
     ctx.fillStyle = "white";
-    ctx.fillText(text, width/2.5, 50);
-    ctx.fillText("total damage " + td + " (" + Math.floor((td/6000)*100) + "%" + ")", width/2.5, 280);
 
     if (td > 6000) {
         td = 0;
     }
 
-    ctx.fillText("當前傷害: " + ball.damage + " 當前攻速: " + ball.velX, width/2.5, 330);
+    ctx.fillText("total damage " + td + " (" + Math.floor((td/6000)*100) + "%" + ")", width*0.45, 280);
+    ctx.fillText("當前傷害: " + ball.damage + " 當前攻速: " + ball.velX, width*0.45, 330);
+
     requestAnimationFrame(loop);
 }
 

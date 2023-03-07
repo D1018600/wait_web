@@ -7,16 +7,21 @@ body {
     height: inherit;
 }
 
+canvas {
+    position: absolute;
+    z-index: 1;
+}
+
 #image1 {
     position: absolute;
-    top: 10%;
-    left: 60%;
+    top: 8%;
+    left: 62%;
     z-index: 9999;
 }
 
 #image2 {
     position: absolute;
-    top: 16%;
+    top: 12%;
     left: 29%;
     z-index: 9999;
 }
@@ -24,7 +29,7 @@ body {
 .b1 {
     position: absolute;
     top: 49%;
-    left: 40%;
+    left: 45%;
     border: none;
     color: black;
     padding: 5px 10px;
@@ -39,7 +44,7 @@ body {
 .b2 {
     position: absolute;
     top: 49%;
-    left: 48%;
+    left: 52%;
     border: none;
     color: black;
     padding: 5px 10px;
@@ -54,7 +59,7 @@ body {
 .b3 {
     position: absolute;
     top: 54%;
-    left: 40%;
+    left: 45%;
     border: none;
     color: black;
     padding: 5px 10px;
@@ -69,7 +74,7 @@ body {
 .b4 {
     position: absolute;
     top: 54%;
-    left: 48%;
+    left: 52%;
     border: none;
     color: black;
     padding: 5px 10px;
@@ -97,4 +102,13 @@ button:active {
     background-color: #ababab;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+h1 {
+    position: absolute;
+    left: 44%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    z-index: 9999;
 }
